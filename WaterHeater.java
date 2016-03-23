@@ -12,7 +12,7 @@ public class WaterHeater extends ServiceCall {
     public WaterHeater(String serviceAddress, String problemDescription, Date date, int age) {
         super(serviceAddress, problemDescription, date);
         this.age = age;
-        this.mandatoryFee = mandatoryFee;
+        this.mandatoryFee = 20;
     }
 
     public int getAge() {
@@ -24,7 +24,7 @@ public class WaterHeater extends ServiceCall {
     }
 
     public double getMandatoryFee() {return mandatoryFee;}
-    public void setMandatoryFee(double mandatoryFee){this.mandatoryFee  = mandatoryFee;}
+    public void setMandatoryFee(double mandatoryFee){this.mandatoryFee  = 20;}
 
     @Override
     public String toString() {
