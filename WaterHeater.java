@@ -7,7 +7,7 @@ import java.util.*;
  */
 public class WaterHeater extends ServiceCall {
     private int age;
-    static double mandatoryFee;
+    static double mandatoryFee = 20;
 //constructor
     public WaterHeater(String serviceAddress, String problemDescription, Date date, int age) {
         super(serviceAddress, problemDescription, date);
